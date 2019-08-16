@@ -1,6 +1,6 @@
-{% set version = "0.2.1" %}
+{% set version = "0.2.2" %}
 {% set hash_type = "md5" %}
-{% set hash_val = "868f8184bf7ee2a034caec165bc44e35" %}
+{% set hash_val = "6987f88386b3bf69f48818bb5f21dd35" %}
 
 package:
   name: resampy
@@ -13,7 +13,7 @@ source:
 
 build:
   noarch: python
-  number: 1
+  number: 0
   script: python -m pip install --no-deps --ignore-installed .
 
 requirements:
