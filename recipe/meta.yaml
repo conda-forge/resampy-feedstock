@@ -1,6 +1,6 @@
-{% set version = "0.3.0" %}
+{% set version = "0.3.1" %}
 {% set hash_type = "md5" %}
-{% set hash_val = "04ea52204cf1f5742dac3db8d27d5e0d" %}
+{% set hash_val = "c18e866a50db030605f0dd99e798e2e8" %}
 
 package:
   name: resampy
