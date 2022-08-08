@@ -1,6 +1,6 @@
-{% set version = "0.3.1" %}
+{% set version = "0.4.0" %}
 {% set hash_type = "md5" %}
-{% set hash_val = "c18e866a50db030605f0dd99e798e2e8" %}
+{% set hash_val = "3aa9317ce1aa963e8935ecf9f9716ba4" %}
 
 package:
   name: resampy
@@ -27,7 +27,7 @@ requirements:
     - python >=3.6
     - setuptools >=48 # necessary for pkg_resources at runtime
     - numpy >=1.17.0
-    - numba >=0.47
+    - numba >=0.53
 
 test:
   imports:
