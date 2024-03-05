@@ -1,6 +1,5 @@
-{% set version = "0.4.2" %}
-{% set hash_type = "md5" %}
-{% set hash_val = "6d008e8a4ee3f5abc1a9070d7c9b311b" %}
+{% set version = "0.4.3" %}
+{% set hash_val = "78a157fbe0f52250e96e19ee769cd064" %}
 
 package:
   name: resampy
@@ -9,12 +8,12 @@ package:
 source:
   fn: resampy-{{ version }}.tar.gz
   url: https://pypi.io/packages/source/r/resampy/resampy-{{ version }}.tar.gz
-  {{ hash_type }}: {{ hash_val }}
+  md5: {{ hash_val }}
 
 build:
   noarch: python
   number: 0
-  script: python -m pip install --no-deps --ignore-installed .
+  script: {{ PYTHON }} -m pip install . --no-deps -vv
 
 requirements:
   host:
