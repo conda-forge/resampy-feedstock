@@ -17,7 +17,7 @@ build:
 
 requirements:
   host:
-    - import_resources ; python_version < "3.9"
+    - import_resources  # [python < '3.9']
     - pip
     - python >=3.6
     - setuptools >=48
