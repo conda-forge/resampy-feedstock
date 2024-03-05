@@ -25,7 +25,7 @@ requirements:
     - python >=3.6
     - numpy >=1.17.0
     - numba >=0.53
-    - import_resources  # [py36|py37|py38]
+    - import_resources  # [py<3.9]
 
 test:
   imports:
