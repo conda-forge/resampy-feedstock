@@ -17,11 +17,11 @@ build:
 requirements:
   host:
     - pip
-    - python >=3.6
+    - python
     - wheel >=0.29.0
 
   run:
-    - python >=3.6
+    - python
     - numpy >=1.17.0
     - numba >=0.53
     - import_resources  # [py<3.9]
