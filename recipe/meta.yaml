@@ -19,6 +19,7 @@ requirements:
     - pip
     - python
     - wheel >=0.29.0
+    - import_resources  # [py<3.9]
 
   run:
     - python
